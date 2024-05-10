@@ -11,22 +11,25 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "TaskTrek Application",
+      description: "A job portal platform",
       imgUrl: projImg1,
+      url: 'https://tasktrek-766fe.web.app/index.html',
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "BookBazaar Application",
+      description: "A marketplace for books",
       imgUrl: projImg2,
+      url: "",
     },
     {
-      title: "Business Startup",
+      title: "Location Tracker Application",
       description: "Design & Development",
       imgUrl: projImg3,
+      url: "https://zidio-geolocation-1irnytpdn-isaac-zik-rgbs-projects.vercel.app/",
     },
     {
-      title: "Business Startup",
+      title: "YouTube Video Downloader Application",
       description: "Design & Development",
       imgUrl: projImg1,
     },
@@ -34,6 +37,7 @@ export const Projects = () => {
       title: "Business Startup",
       description: "Design & Development",
       imgUrl: projImg2,
+      url: '',
     },
     {
       title: "Business Startup",
@@ -51,7 +55,13 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>I thrive in dynamic environments where I can apply my technical expertise to solve complex challenges and drive innovation. With a strong foundation in software engineering principles and a knack for continuous learning, I am committed to delivering high-quality solutions that exceed expectations and drive business growth.</p>
+                <p>Portfolio Highlights</p>:
+
+<p>Enterprise-grade Backend Systems: Designed and implemented backend systems for large-scale enterprises, ensuring reliability, scalability, and security. Leveraged AWS services such as EC2, RDS, and S3 to build robust infrastructures capable of handling millions of requests per day.
+Microservices Architecture: Developed microservices-based architectures using Java and Node.js, enabling modularization, flexibility, and scalability. Implemented service discovery, load balancing, and fault tolerance mechanisms to ensure system resilience.
+Serverless Applications: Built serverless applications using AWS Lambda, API Gateway, and DynamoDB, enabling automatic scaling and cost optimization. Leveraged event-driven architecture to create responsive and efficient workflows.
+Data Processing Pipelines: Designed and implemented data processing pipelines using Python and AWS services like S3, Glue, and Athena. Developed ETL processes to extract, transform, and load data from various sources, enabling actionable insights and informed decision-making.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

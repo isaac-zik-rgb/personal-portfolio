@@ -34,7 +34,15 @@ export const Skills = () =>{
                     <Col>
                     <div className="skill-bx">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                        <p>Java: With years of experience developing in Java, I excel in crafting high-performance, enterprise-grade applications. Whether it's building RESTful APIs, implementing microservices architectures, or optimizing database interactions, I ensure that the codebase is maintainable, efficient, and adheres to best practices.</p>
+
+<p><strong>Python:</strong> Python is my go-to language for rapid prototyping, data processing, and scripting tasks. From developing machine learning models to automating workflows, I leverage Python's simplicity and versatility to deliver solutions that meet diverse business needs.</p>
+
+<p><stron>Node.js:</stron> Asynchronous programming with Node.js allows me to build real-time applications and APIs with speed and scalability. I leverage the event-driven architecture of Node.js to create responsive and high-throughput systems, ensuring seamless user experiences.</p>
+
+<p><strong>AWS Services:</strong> I am proficient in leveraging AWS services to design, deploy, and manage cloud-based solutions. From utilizing EC2 for scalable compute resources to implementing serverless architectures with AWS Lambda, I leverage AWS's extensive suite of tools to optimize performance, reliability, and cost-effectiveness.</p>
+
+
 
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
